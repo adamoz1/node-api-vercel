@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-var BUILD_NO = '2.0.3';
+var BUILD_NO = '2.1.0';
 
 app.get('/getBuildNo',(req, res)=>{
     res.json({'build_no': BUILD_NO});
